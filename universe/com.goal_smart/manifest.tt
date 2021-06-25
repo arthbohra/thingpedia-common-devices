@@ -91,7 +91,7 @@ class @com.goal_smart
                         }])
   #_[canonical=["team fixtures", "team matches", "team games"]]
   #_[confirmation="fixtures of $team_id"]
-  #_[result=["${team1} vs ${team2} at ${venue} for the ${league}"]]
+  #_[result=["${team1} vs ${team2} at ${venue} for the ${league}."]]
   #[poll_interval=3600000ms]
   #[doc="Get the fixtures of the team"];
 

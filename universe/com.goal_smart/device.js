@@ -97,10 +97,10 @@ module.exports = class GoalDevice extends Tp.BaseDevice {
         const n1 = obj.teams.home.name;
         const t1_id = obj.teams.home.id;
         const n2 = obj.teams.away.name;
-        const t2_id = obj.teams.home.id;
+        const t2_id = obj.teams.away.id;
         const v = obj.fixture.venue.name;
         return ({
-          team: new Tp.Value.Entity(String(l_id), String(l)),
+          league: new Tp.Value.Entity(String(l_id), String(l)),
           team1: new Tp.Value.Entity(String(t1_id), String(n1)),
           team2: new Tp.Value.Entity(String(t2_id), String(n2)),
           venue: v

@@ -1,0 +1,16 @@
+# basic
+# FIXME
+U: \t @info.owlbot.get(word="cat");
+A: \b(mammal|animal|pet|creature)\b
+====
+U: what is the definition of kilogram
+A: \b(mass|unit|measure|SI)\b
+====
+U: what is the definition of feeling
+A: \b(emotion|reaction)\b
+====
+U: what is the definition of hat
+A: \b(head)\b
+====
+U: what is the definition of coronavirus
+A: Sorry, no definition for this word! Please try again with another word.
