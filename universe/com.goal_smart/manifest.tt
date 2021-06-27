@@ -70,6 +70,7 @@ class @com.goal_smart
   #_[result = ["${rank} . ${team} Form: ${form} Points: ${points}"]]
   #[poll_interval=3600000ms]
   #[doc="Get the standings of a league"];
+  
 
 
   monitorable list query teamFixtures(in req team_id: Entity(com.goal_smart:soccer_team) #_[prompt="what team do you want out check out"],

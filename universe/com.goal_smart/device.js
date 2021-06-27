@@ -225,6 +225,8 @@ module.exports = class GoalDevice extends Tp.BaseDevice {
           },
           accept: 'application/json'
         }).then((tempResponse2) => {
+
+          
           const a2 = JSON.parse(tempResponse2);
           const b2 = a2.response;
           let n1 = b2[0].teams.home.name;
